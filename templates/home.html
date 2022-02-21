@@ -1,0 +1,30 @@
+<!--
+CoolSearch
+Ultimate Media's CoolStuff
+
+Copyright (c) Ultimate Media
+Released under the MIT License
+https://ultimatemedia.js.org/legal/mit-license
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolSearch</title>
+    <link rel="stylesheet" href="{{ url_for("static", filename="home.css") }}">
+</head>
+<body>
+    <div class="container">
+        <h1>CoolSearch</h1>
+        <h4>It's not <i>that</i> cool</h4>
+        <form action="/cool">
+            <label for="search">Enter stuff</label>
+            <input type="text" name="search" id="search" placeholder="Enter stuff">
+            <button type="submit">CoolSearch</button>
+        </form>
+    </div>
+</body>
+</html>

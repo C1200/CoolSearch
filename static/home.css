@@ -1,0 +1,28 @@
+/*
+CoolSearch
+Ultimate Media's CoolStuff
+
+Copyright (c) Ultimate Media
+Released under the MIT License
+https://ultimatemedia.js.org/legal/mit-license
+*/
+
+@import url("/static/font.css");
+
+.container {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+label {
+    display: none;
+}
+
+h1, h4 {
+    margin: 0;
+}
+
+h4 {
+    margin-bottom: 15px;
+}
